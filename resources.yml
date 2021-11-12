@@ -1,0 +1,51 @@
+resources:
+   - name: resource_001
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resourcetesting_002
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resource_003
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resourcetesting_004
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resource_005
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resourcetesting_006
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resource_007
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resourcetesting_008
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resource_009
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
+   - name: resourcetesting_010
+     type: GitRepo
+     configuration:
+       gitProvider: raksha78_github            
+       path: raksha78/bash-step
