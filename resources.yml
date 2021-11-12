@@ -4,7 +4,7 @@ resources:
      configuration:
        gitProvider: raksha78_github            
        path: raksha78/bash-step
-   - name: resourcetesting_002
+   - name: resource_002
      type: GitRepo
      configuration:
        gitProvider: raksha78_github            
@@ -14,7 +14,7 @@ resources:
      configuration:
        gitProvider: raksha78_github            
        path: raksha78/bash-step
-   - name: resourcetesting_004
+   - name: resource_004
      type: GitRepo
      configuration:
        gitProvider: raksha78_github            
@@ -24,7 +24,7 @@ resources:
      configuration:
        gitProvider: raksha78_github            
        path: raksha78/bash-step
-   - name: resourcetesting_006
+   - name: resource_006
      type: GitRepo
      configuration:
        gitProvider: raksha78_github            
@@ -34,7 +34,7 @@ resources:
      configuration:
        gitProvider: raksha78_github            
        path: raksha78/bash-step
-   - name: resourcetesting_008
+   - name: resource_008
      type: GitRepo
      configuration:
        gitProvider: raksha78_github            
@@ -44,7 +44,7 @@ resources:
      configuration:
        gitProvider: raksha78_github            
        path: raksha78/bash-step
-   - name: resourcetesting_010
+   - name: resource_010
      type: GitRepo
      configuration:
        gitProvider: raksha78_github            
