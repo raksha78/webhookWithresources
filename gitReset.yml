@@ -1,0 +1,26 @@
+resources:
+  - name: gitresource
+    type: GitRepo
+    configuration:
+      gitProvider: github_neha
+      path: raksha78_github/webhookWithresources
+      buildOn:
+         commit: true
+         pullRequestCreate: true
+         pullRequestClose: true
+         releaseCreate: true
+         tagCreate: true
+pipelines:
+  - name: testPipelineRel
+    steps:
+      - name: testStep
+        type: Bash
+        configuration:
+          inputResources:
+            - name: gitresource
+        execution:
+           onStart:
+            - echo "executing onStart"
+           onExecute:
+             - echo "executing onExecute"
+             - pushd $res_gitresource_resourcePath
