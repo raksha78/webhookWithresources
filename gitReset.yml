@@ -2,8 +2,8 @@ resources:
   - name: gitresource
     type: GitRepo
     configuration:
-      gitProvider: github_neha
-      path: raksha78_github/webhookWithresources
+      gitProvider: raksha78_github
+      path: raksha78/webhookWithresources
       buildOn:
          commit: true
          pullRequestCreate: true
