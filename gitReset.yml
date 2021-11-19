@@ -14,7 +14,7 @@ pipelines:
   - name: testPipelineRel
     steps:
       - name: testStep
-        type: Bash
+        type: Powershell
         configuration:
           inputResources:
             - name: gitresource
