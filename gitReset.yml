@@ -13,17 +13,17 @@ resources:
 pipelines:
   - name: testPipelineRel01
     steps:
-      - name: testStep01
-        type: Powershell
-        configuration:
-          inputResources:
-            - name: gitresource
-        execution:
-           onStart:
-            - echo "executing onStart"
-           onExecute:
-             - echo "executing onExecute"
-             - pushd $res_gitresource_resourcePath
+#       - name: testStep01
+#         type: Powershell
+#         configuration:
+#           inputResources:
+#             - name: gitresource
+#         execution:
+#            onStart:
+#             - echo "executing onStart"
+#            onExecute:
+#              - echo "executing onExecute"
+#              - pushd $res_gitresource_resourcePath
   - name: testPipelineRel
     steps:
       - name: testStep
