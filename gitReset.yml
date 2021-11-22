@@ -11,8 +11,8 @@ resources:
          releaseCreate: true
          tagCreate: true
 pipelines:
-  - name: testPipelineRel01
-    steps:
+#   - name: testPipelineRel01
+#     steps:
 #       - name: testStep01
 #         type: Powershell
 #         configuration:
