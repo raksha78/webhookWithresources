@@ -1,5 +1,5 @@
 resources:
-  - name: gitresource
+  - name: gitresource_rak
     type: GitRepo
     configuration:
       gitProvider: raksha78_github
