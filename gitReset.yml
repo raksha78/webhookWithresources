@@ -30,10 +30,10 @@ pipelines:
         type: Bash
         configuration:
           inputResources:
-            - name: gitresource
+            - name: gitresource_rak
         execution:
            onStart:
             - echo "executing onStart"
            onExecute:
              - echo "executing onExecute"
-             - pushd $res_gitresource_resourcePath
+             - pushd $res_gitresource_rak_resourcePath
