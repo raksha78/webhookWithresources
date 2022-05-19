@@ -2,19 +2,19 @@ pipelines:
  - name: pipeline_test
    steps:
      - name: step_1
-       type: Bash
-       configuration:
-         inputResources:
-           - name: "resource_001"
-           - name: "resource_002"
-           - name: "resource_003"
-           - name: "resource_004"
-           - name: "resource_005"
-           - name: "resource_006"
-           - name: "resource_007"
-           - name: "resource_008"
-           - name: "resource_009"
-           - name: "resource_010"
-       execution:
-         onExecute:
-           - echo "hi"
+#        type: Bash
+#        configuration:
+#          inputResources:
+#            - name: "resource_001"
+#            - name: "resource_002"
+#            - name: "resource_003"
+#            - name: "resource_004"
+#            - name: "resource_005"
+#            - name: "resource_006"
+#            - name: "resource_007"
+#            - name: "resource_008"
+#            - name: "resource_009"
+#            - name: "resource_010"
+#        execution:
+#          onExecute:
+#            - echo "hi"
